@@ -7,7 +7,9 @@ In a stream cipher, each plaintext digit is encrypted one at a time with the cor
 
 he pseudorandom keystream is typically generated serially from a random seed value using digital shift registers. 
 The seed value serves as the cryptographic key for decrypting the ciphertext stream.
+
 ![image](https://github.com/AbdelrahmanKhaled826/stream_cipher/assets/66374409/d9695dd2-06fd-4268-b4e5-5d4a26f1673c)
+
 # for Encryption
 Plain Text and Keystream produces Cipher Text (Same keystream will be used for decryption.).
 The Plaintext will undergo XOR operation with keystream bit-by-bit and produces the Cipher Text.
